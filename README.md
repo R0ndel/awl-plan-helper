@@ -5,6 +5,7 @@
 3. Choose your major / generate .ics files for all majors
 
 - `get_calendar_schemes(wb)` - creates an .ics file for each respective year for majors listed in `MAJORS`
-- `get_major_calendar_scheme(wb, "<major>", <year>)` - creates an .ics file for supplied major and year
+- `get_major_calendar_scheme(wb, "<major>", <year>)` - creates an .ics file for supplied major and year, available majors: informatyka, logistyka, bezpieczenstwo
+- eg. `get_major_calendar_scheme(wb, "Informatyka", 2)` - creates an .ics file for informatyka 2nd year 
 
 4. Upload the file to your calendar app
